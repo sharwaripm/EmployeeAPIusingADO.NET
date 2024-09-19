@@ -1,0 +1,6 @@
+@EmployeeAPI_adonet_HostAddress = http://localhost:5260
+
+GET {{EmployeeAPI_adonet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
