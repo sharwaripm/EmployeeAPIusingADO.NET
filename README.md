@@ -1,2 +1,3 @@
 # EmployeeAPIusingADO.NET
 ASP.NET Core Web API that manages employee data using ADO.NET
+This ASP.NET Core Web API project uses ADO.NET for direct database interactions, configured with SQL Server through a connection string defined in the configuration. It sets up services for controllers, Swagger for API documentation, and CORS policies to allow requests from any origin, while managing CRUD operations and data access using raw SQL commands and SqlConnection, SqlCommand, and SqlDataAdapter. The application includes middleware for HTTPS redirection, authorization, and configures the request pipeline for development and production environments.
